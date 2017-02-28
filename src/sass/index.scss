@@ -1,0 +1,13 @@
+@import "base/base";
+
+.main {
+  // avoid flashing or flickering
+  visibility: hidden;
+
+  // for pc accessing
+  max-width: $mainWidth;
+
+  margin: 0 auto;
+  background: #f4f4f4;
+  min-height: 400px;
+}

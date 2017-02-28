@@ -1,0 +1,6 @@
+.idea
+.idea?
+build
+node_modules
+src/js
+src/css

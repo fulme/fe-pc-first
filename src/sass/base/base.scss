@@ -1,0 +1,54 @@
+@import "./variable";
+@import "./reset";
+@import "./common";
+
+// 基础样式
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Microsoft Yahei', 'Segoe UI', arial, helvetica, sans-serif;
+  font-size: 14px;
+}
+
+input {
+  border: 0;
+}
+
+input, textarea {
+  outline: 0;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
+a:focus, input:focus, img:focus {
+  outline: none;
+}
+
+a, input, img {
+  // for ie, disable outline
+  hide-focus: expression(this.hideFocus=true);
+}
+
+img, img:focus {
+  border: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+sup, sub {
+  position: relative;
+  line-height: 0;
+}
